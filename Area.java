@@ -8,7 +8,7 @@ public class Area
         Scanner s = new Scanner(System.in);
         System.out.print("Enter radius of circle:");
         r = s.nextInt();
-        area = (Math.PI * r * r) /2;
-        System.out.println("Area of circle:"+area);
+        area = (Math.PI * r * r);
+        System.out.println("Area of circle:" +area);
     }            
 }
